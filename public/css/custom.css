@@ -1,0 +1,91 @@
+/*************************************************************
+*						Custom Css
+**************************************************************/
+.table-responsive i {
+  color: #ffffff;
+}
+
+#tasks {
+  height: 200px;
+  width: 95%;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin-top: 20px;
+}
+
+#addSales{
+  background-color: #3a8e82;
+}
+.btnall{
+   background-color: #2a5b54;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 10px;
+  height:20px ;
+  /* background-bo: #2a5b54; */
+  border: #2a5b54;
+  /* float: right; */
+}
+
+#btnadd{
+  background-color: #2a5b54;
+  border-radius: 5px;
+  float: right;
+}
+
+#btnadd:hover{
+  background-color: #397e74;
+}
+.invtxt{
+  border-radius: 5px;
+}
+.bttn{
+    padding: 6px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 3px;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.toDoList{
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.toDoList a{
+  color:#222529;
+  text-decoration:none;
+  margin: 20px;
+}
+
+.toDoList a:hover{
+  color: #387a71;
+  text-decoration:none;
+}
+
+.toDoList .value{
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.table1 {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.table1 th{
+  padding: 0.75rem;
+  vertical-align: top;
+  /* border-top: 1px solid #dee2e6; */
+}
+
+.table1 td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}

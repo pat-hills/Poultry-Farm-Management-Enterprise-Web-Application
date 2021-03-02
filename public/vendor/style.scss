@@ -1,0 +1,43 @@
+$primary-color: #0E5D54;
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+a {
+    color: $primary-color;
+}
+
+.bg-primary {
+    background-color: $primary-color !important;
+}
+
+.btn-primary {
+    background-color: $primary-color !important;
+    border-color: $primary-color !important;
+}
+
+.sw-theme-dots>ul.step-anchor>li {
+    font-size: 12px;
+}
+
+.sw-theme-dots>ul.step-anchor>li.active>a {
+    color: $primary-color;
+}
+
+.sw-theme-dots>ul.step-anchor>li>a:before {
+    color: $primary-color !important;
+}
+
+.sw-theme-dots>ul.step-anchor>li.active>a:after {
+    background: $primary-color;
+}
+
+.wz-content-wrapper {
+    min-height: 60vh;
+}

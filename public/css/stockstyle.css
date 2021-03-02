@@ -1,0 +1,105 @@
+/*onboarding stock setup step progress bar*/
+
+.container{
+	width: 100%;
+}
+.progressbar li {
+	list-style-type: none;
+	float: left;
+	width: 20%;
+	position: relative;
+	text-align: center;
+}
+
+
+.progressbar li:before {
+	content: '';
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border: 5px solid #f5f5f5;
+	display: block;
+	text-align: center;
+	margin: 0 auto 10px auto;
+	border-radius: 50%;
+	background-color: white;
+
+
+}
+
+.progressbar li:after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	background-color: #ddd;
+	top: 15px;
+	left: -50%;
+	z-index: -1;
+}
+
+.progressbar li:first-child:after{
+	content: none;
+}
+
+.progressbar li.active1{
+	color: #73b566;
+	font-style: sans-serif;
+	font-size: 15px;
+}
+
+.progressbar li.active2{
+	color: #73b566;
+	font-style: sans-serif;
+	font-size: 15px;
+}
+
+.progressbar li.active3{
+	color: #73b566;
+	font-style: sans-serif;
+	font-size: 15px;
+}
+
+.progressbar li.active4{
+	color: #0E5D54;
+	font-style: sans-serif;
+	font-size: 15px;
+}
+
+.progressbar li.active5{
+	color: #ddd;
+	font-style: sans-serif;
+	font-size: 15px;
+}
+
+.progressbar li.active1:before{
+	background-color: #73b566;
+}
+
+.progressbar li.active2:before{
+	background-color: #73b566;
+}
+
+.progressbar li.active3:before{
+	background-color: #73b566;
+}
+
+.progressbar li.active4:before{
+	background-color: #0E5D54;
+}
+
+.progressbar li.active5:before{
+	background-color: #ddd;
+}
+
+.progressbar li.active1 + li:after{
+	background-color: #73b566;
+}
+
+.progressbar li.active2 + li:after{
+	background-color: #73b566;
+}
+
+.progressbar li.active3 + li:after{
+	background-color: #73b566;
+}
